@@ -27,8 +27,8 @@ body {
 main {
 	max-width: 80%;
 	background-color: white;
-	width: 740px;
-	padding: 3em;
+	width: 735px;
+	padding: 3.5em;
 	border-radius: 1em;
 }
 
@@ -37,15 +37,42 @@ img {
 	width: 100%;
 }
 h1 {
-	margin: 1rem 0;
-	letter-spacing: 0.05em;
+	margin: 2rem 0 1rem 0;
 	font-family: "Young Serif", serif;
+	font-weight: 400;
 	color: hsl(24, 5%, 18%);
-	font-size: 32px;
+	font-size: 2.5rem;
 }
 
 .sub_title {
+	font-size: 1rem;
+	margin-bottom: 2rem;
+	color: hsl(30, 10%, 34%);
+}
+
+.prep {
+	background-color: hsl(330, 100%, 98%);
 	font-size: 0.9rem;
+	padding: 1.5rem;
+	border-radius: 0.5em;
+}
+.prep h4 {
+	font-size: 1.2rem;
+	color: hsl(332, 51%, 32%);
+	font-weight: 600;
+}
+
+.prep li {
+	color: hsl(332, 51%, 32%);
+	line-height: 1.7rem;
+	margin-left: 0.4rem;
+}
+
+.bold {
+	margin-left: 1.2rem;
+	font-weight: 600;
+	font-size: 1rem;
+	color: hsl(30, 10%, 34%);
 }
 
 .attribution {
