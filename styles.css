@@ -71,7 +71,7 @@ h1 {
 
 .bold,
 li {
-	margin-left: 1.2rem;
+	/* margin-left: 1.2rem; */
 	font-weight: 700;
 	font-size: 1rem;
 	color: hsl(30, 10%, 34%);
@@ -110,11 +110,15 @@ span {
 	line-height: 2rem;
 }
 
-.instructions li {
+.instructions li,
+tr td + td {
 	color: hsl(14, 45%, 36%);
 	font-weight: 700;
 }
-
+ol {
+	padding-left: 1rem;
+	list-style-position: outside;
+}
 ol li {
 	font-weight: 400;
 	font-size: 1rem;
@@ -132,6 +136,16 @@ ol li {
 	font-weight: 400;
 	color: hsl(30, 10%, 34%);
 	margin-bottom: 1.5rem;
+}
+table {
+	font-size: 1rem;
+	color: hsl(30, 10%, 34%);
+	width: 100%;
+}
+
+td {
+	line-height: 2.5rem;
+	border-bottom: 1px solid hsla(32, 10%, 34%, 0.267);
 }
 
 .attribution {
