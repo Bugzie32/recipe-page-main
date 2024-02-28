@@ -88,11 +88,16 @@ span {
 }
 
 .ingredients h2,
-.instructions h4 {
+.instructions h4,
+.nutrition h4 {
 	padding: 0.8em 0;
 	color: hsl(14, 45%, 36%);
 	font-size: 1.7rem;
 	font-weight: 400;
+}
+
+.instructions {
+	margin-bottom: 2rem;
 }
 
 .ingredients li {
@@ -105,13 +110,28 @@ span {
 	line-height: 2rem;
 }
 
+.instructions li {
+	color: hsl(14, 45%, 36%);
+	font-weight: 700;
+}
+
 ol li {
 	font-weight: 400;
 	font-size: 1rem;
+	line-height: 1.6rem;
+	margin-bottom: 0.5rem;
 }
 
-.instructions {
+.instructions,
+.nutrition {
 	border-top: 1px solid hsla(32, 10%, 34%, 0.267);
+}
+
+.nutrition p {
+	font-size: 1rem;
+	font-weight: 400;
+	color: hsl(30, 10%, 34%);
+	margin-bottom: 1.5rem;
 }
 
 .attribution {
